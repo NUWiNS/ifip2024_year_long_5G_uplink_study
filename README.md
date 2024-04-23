@@ -11,5 +11,5 @@ paper, *How Mature is 5G Deployment? A Cross-Sectional, Year-Long Study of 5G Up
 **Authors to Contact**:
 [[Imran Khan](https://imranbuet63.github.io)]
 [[Moinak Ghoshal](https://sites.google.com/view/moinak-ghoshal/home)] 
-[[Sigrid Dimce]()]
-[[Joana Anjo]()]
+[[Sigrid Dimce](https://www.tkn.tu-berlin.de/team/dimce/)]
+[[Joana Anjo](https://www.tkn.tu-berlin.de/team/angjo/)]
