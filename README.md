@@ -1,4 +1,4 @@
-# [IFIP Networking '24] Performance of Cellular Networks on the Wheels
+# [IFIP Networking '24] How Mature is 5G Deployment? A Cross-Sectional, Year-Long Study of 5G Uplink Performance
 
 In this repository, we release the dataset and scripts used in the IFIP Networking '24
 paper, *How Mature is 5G Deployment? A Cross-Sectional, Year-Long Study of 5G Uplink Performance*.
