@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from datetime import datetime
 import matplotlib.dates as mdates
-import ast  # Import the ast module
+import ast 
 from matplotlib.pyplot import figure
 
 # Read the .csv file
@@ -133,21 +133,21 @@ sorted_values_s = np.sort(flat_values_s)
 sorted_values_w = np.sort(flat_values_w)
 sorted_values_d = np.sort(flat_values_d)
 
-cdf_s = np.arange(1, len(sorted_values_s) + 1) / len(sorted_values_s)
-cdf_w = np.arange(1, len(sorted_values_w) + 1) / len(sorted_values_w)
-cdf_d = np.arange(1, len(sorted_values_d) + 1) / len(sorted_values_d)
+cdf_s_5g = np.arange(1, len(sorted_values_s) + 1) / len(sorted_values_s)
+cdf_w_5g = np.arange(1, len(sorted_values_w) + 1) / len(sorted_values_w)
+cdf_d_5g = np.arange(1, len(sorted_values_d) + 1) / len(sorted_values_d)
 
-plt.plot(sorted_values_s, cdf_s, label='Static', color ='tab:blue')
-plt.plot(sorted_values_w, cdf_w, label='Walking', color ='tab:orange')
-plt.plot(sorted_values_d, cdf_d, label='Driving', color ='tab:green')
+plt.plot(sorted_values_s, cdf_s_5g, label='Static', color ='tab:blue')
+plt.plot(sorted_values_w, cdf_w_5g, label='Walking', color ='tab:orange')
+plt.plot(sorted_values_d, cdf_d_5g, label='Driving', color ='tab:green')
 
 # Plot the CDF
 
 plt.xlabel('RSRP')
 plt.ylabel('CDF')
 plt.xlim([-130,-50])
-#plt.title('CDF of MeanRsrp Values')
+
 plt.grid(True)
-# plt.legend()
+
 plt.savefig("Plots/Germany_ssrsrp_Mobility_5G.png", format="png", dpi=300)
 plt.show()

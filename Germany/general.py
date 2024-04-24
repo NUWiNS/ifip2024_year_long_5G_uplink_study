@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from datetime import datetime
 import matplotlib.dates as mdates
-import ast  # Import the ast module
+import ast  
 from matplotlib.pyplot import figure
 
 data = (
